@@ -21,7 +21,7 @@ trait apiResponseTrait
     function loginSuccessResponse($user,$token)
     {
         return response()->json([
-            'message' => 'Login successfully ketty 😍',
+            'message' => 'success',
             'user' => $user,
             'token' => $token
         ], 200);
